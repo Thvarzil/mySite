@@ -1,0 +1,50 @@
+body{
+    background-image: url("modern-upholstery-fabric.jpg");
+}
+
+.navbar{
+    background: rgba(169,169,169,0.8);
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-title{
+    padding: 0;
+}
+
+.container{
+    padding: 25px;
+    background: rgba(169,169,169,0.8);
+    border-radius: 15px;
+}
+
+.navbar-nav .disabled{
+    /*Figure out how to override Materialize*/
+    /*Also, match hovered button to disabled?*/
+    color: black !important;
+}
+
+#biopic{
+    width: 250px;
+    height: auto;
+}
+
+.link{
+    width: 30px;
+    height:auto;
+}
+
+.fixed-action-btn .btn-large{
+    background: rgba(169,169,169,0.8) !important;
+}
+
+#chain{
+    width: 40px;
+    height: auto;
+}
+
+#blurb{
+    float: left;
+}
